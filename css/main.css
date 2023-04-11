@@ -220,6 +220,7 @@ body {
   background-color: #0eb4c1;
 }
 .aside_title {
+  margin-top: 0;
   margin-bottom: 52px;
   padding-top: 64px;
   font-weight: bold;
@@ -246,6 +247,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+}
+.first_link {
+  margin-left: 0;
 }
 .site_phone:hover {
   background-color: #de2e54;
