@@ -1,0 +1,304 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v34-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans","Arial",sans-serif;
+  margin: 0;
+}
+/* The style of the header section of the site has begun */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site_header_box {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site_logo {
+  width: 185px;
+}
+.site_navigation {
+  margin: 0 auto;
+}
+.nav_list {
+  padding-left: 0;
+  display: flex;
+}
+.nav_item {
+  margin-right: 32px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.nav_item:nth-child(5){
+  margin-right: 0;
+}
+.nav_item_link {
+  text-decoration: none;
+  color: #222;
+}
+.nav_item_link:hover {
+  color: #de2e54;
+}
+.nav_item_link:active {
+  opacity: 0.6;
+}
+.head_link {
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #de2e54;
+  background-color: #de2e54;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.head_link:hover {
+  color: #de2e54;
+  background-color: #fff;
+  border-color: #de2e54;
+}
+.head_link:active {
+  color: #fff;
+  background-color: #de2e54;
+  opacity: 0.6;
+}
+/* The style of the header section of the site has end */
+/* The style of the main section of the site has started */
+.hero_section {
+  background-color: #0eb4c1;
+}
+.hero_section_box {
+  display: flex;
+}
+.section_text_box {
+  padding-top: 120px;
+}
+.heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #fff;
+}
+.desc_box {
+  width: 440px;
+}
+.heading_desc {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+.hero_section_link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #de2e54;
+  background-color: #de2e54;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.hero_section_link:hover {
+  opacity: 0.8;
+}
+.hero_section_link:active {
+  opacity: 0.6;
+}
+.hero_section_img {
+  padding-top: 29px;
+}
+/* The style of the main section of the site has end */
+.services_section {
+  padding-top: 120px;
+}
+.services_big_box {
+  margin: 0 auto;
+}
+.services_title {
+  margin-top: 0;
+  margin-bottom: 56px;
+  text-align: center;
+}
+.services_list {
+  margin: 0;
+  margin-left: 118px;
+  padding-left: 0;
+}
+.services_item {
+  display: flex;
+  list-style: none;
+}
+.services_img {
+  margin-right: 64px;
+  margin-bottom: 80px;
+}
+.last-img {
+  margin-bottom: 60px;
+}
+.services_text_box {
+  width: 572px;
+}
+.item_subtitle {
+  margin-top: 18px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222;
+}
+.additional_subtitle {
+  margin-top: 10px;
+}
+.item_desc {
+  margin: 0;
+  line-height: 24px;
+  color: #444;
+}
+.services_linkbox {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+.services_link {
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #de2e54;
+  background-color: #de2e54;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.services_link:hover {
+  color: #de2e54;
+  background-color: #fff;
+  border-color: #de2e54;
+}
+.services_link:active {
+  color: #fff;
+  background-color: #de2e54;
+  opacity: 0.6;
+}
+/* site aside section started */
+.section_aside {
+  background-color: #0eb4c1;
+}
+.aside_title {
+  margin-bottom: 52px;
+  padding-top: 64px;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 43px;
+  color: #fff;
+}
+.connection_box {
+  padding-bottom: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site_phone {
+  margin-left: 40px;
+  padding: 14px 28px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.site_phone:hover {
+  background-color: #de2e54;
+  border: #de2e54;
+}
+.site_phone:active{
+  background-color: #de2e54;
+  opacity: 0.6;
+}
+/* site aside section end */
+/* site footer section styled started */
+.site_footer {
+  background-color: #222;
+}
+.footer_box {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.site_logo:hover {
+  color: #de2e54;
+}
+.logo_link:active {
+  color: #fff;
+  opacity: 0.6;
+}
+.footer_list {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+.footer_item {
+  margin-right: 32px;
+  list-style: none;
+}
+.footer_item:active {
+  color: #fff;
+  opacity: 0.6;
+}
+.footer_item:nth-child(5) {
+  margin-right: 0;
+}
+.foot_item_link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.foot_item_link:hover {
+  color: #de2e54;
+}
+/* site footer section styled end */
