@@ -258,7 +258,7 @@ body {
 }
 .site_phone:hover {
   background-color: #de2e54;
-  border: #de2e54;
+  border: 2px solid #de2e54;
 }
 .site_phone:active{
   background-color: #de2e54;
